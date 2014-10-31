@@ -1,0 +1,165 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f7f7f7;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.svg svg{
+  border: 1px solid black;
+  margin-left: 50px;
+}
+
+.tip{
+  fill-opacity: .9;
+  .hidden{
+    fill-opacity: 0;
+  }
+  rect{
+    fill: #fff;
+  }
+}
+
+.team {
+  transition: all .4s;
+  text {
+    font-size: 10px;
+  }
+}
+
+.line {
+  fill: none;
+  stroke-width: 1px;
+  transition: all .4s;
+}
+
+.base-line {
+  stroke-width: 4px;
+  stroke: black;
+}
+
+.season-line{
+  stroke-width: 1px;
+  stroke: black;
+}
+
+.season-group text{
+  fill: red;
+  text: 10px;
+}
+
+.team.diminish{
+    fill-opacity: .2;
+    stroke-opacity: .9;
+    opacity: .2;
+}
+
+.team.highlight .line{
+  stroke-width: 6px;
+}
+
+.team-logo{
+  cursor:pointer;
+}
+
+.ATL{ stroke: #B4251F; fill: #242520; }
+.ARI{ stroke: #8D3E44; fill: #FFFFFF; }
+.BAL{ stroke: #483E7B; fill: #242520; }
+.BUF{ stroke: #000000; fill: #C13840; }
+.CAR{ stroke: #3987B8; fill: #242520; }
+.CHI{ stroke: #000000; fill: #D25C2C; }
+.CIN{ stroke: #D25C2C; fill: #242520; }
+.CLE{ stroke: #D25C2C; fill: #28231F; }
+.DAL{ stroke: #3B4455; fill: #BFC5C5; }
+.DEN{ stroke: #D25C2C; fill: #3B4455; }
+.DET{ stroke: #1E3C7A; fill: #BFC5C5; }
+.GB { stroke: #36483a; fill: #EEC131; }
+.HOU{ stroke: #000000; fill: #B4251F; }
+.IND{ stroke: #071753; fill: #FFFFFF; }
+.JAC{ stroke: #33687A; fill: #242520; }
+.KC { stroke: #B4251F; fill: #EEC131; }
+.MIA{ stroke: #235161; fill: #D25C2C; }
+.MIN{ stroke: #483E7B; fill: #EEC131; }
+.NE { stroke: #C13840; fill: #3B4455; }
+.NO { stroke: #A78524; fill: #242520; }
+.NYG{ stroke: #B4251F; fill: #000000; }
+.NYJ{ stroke: #36483a; fill: #FFFFFF; }
+.OAK{ stroke: #BFC5C5; fill: #242520; }
+.PHI{ stroke: #132C33; fill: #242520; }
+.PIT{ stroke: #242520; fill: #EEC131; }
+.SD { stroke: #3B4455; fill: #EEC131; }
+.SF { stroke: #8D3E44; fill: #A78524; }
+.SEA{ stroke: #46566D; fill: #65A161; }
+.STL{ stroke: #151A2E; fill: #A78524; }
+.TB { stroke: #C11C16; fill: #AA9884; }
+.TEN{ stroke: #3B89BA; fill: #3B4455; }
+.WAS{ stroke: #543437; fill: #EEC131; }
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

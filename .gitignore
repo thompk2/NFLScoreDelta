@@ -1,0 +1,9 @@
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+
+app/scripts/vendor/nfl_game_stats-2.0.2.js
+
+app/scripts/vendor/nfl_game_stats-1.1.js
